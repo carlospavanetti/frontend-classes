@@ -82,4 +82,12 @@ p {
   padding: 24px;
   margin: 24px 0;
   border: 1px solid darkkhaki;
+  transition: transform 0.2s;
+}
+
+/* checkpoint */
+
+p:hover {
+  background-color: lemonchiffon;
+  transform: scale(1.05);
 }
