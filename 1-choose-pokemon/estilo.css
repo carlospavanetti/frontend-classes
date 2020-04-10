@@ -1,0 +1,36 @@
+h1 {
+  font-family: sans-serif;
+  color: navy;
+}
+
+h2 {
+  color: indigo;
+}
+
+h3 {
+  color: slateblue;
+}
+
+/* checkpoint */
+body {
+  background-color: lavender;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+/* checkpoint */
+span {
+  background-color: darkslateblue;
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+}
+
+/* checkpoint */
+
+img {
+  max-height: 200px;
+}
