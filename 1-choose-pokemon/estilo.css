@@ -4,7 +4,12 @@ h1 {
 }
 
 h2 {
-  color: indigo;
+  color: lavender;
+  background-color: navy;
+  padding: 12px 24px;
+  margin-left: -24px;
+  margin-right: -24px;
+  font-family: sans-serif;
 }
 
 h3 {
@@ -14,19 +19,16 @@ h3 {
 /* checkpoint */
 body {
   background-color: ghostwhite;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 p {
   line-height: 1.5;
   font-size: 16px;
-}
-
-/* checkpoint */
-span {
-  background-color: darkslateblue;
-  color: white;
-  font-weight: bold;
-  padding: 8px;
 }
 
 /* checkpoint */
@@ -38,7 +40,8 @@ img {
 /* checkpoint */
 
 div {
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
   margin: auto;
   background-color: lavender;
   padding: 24px;
@@ -46,4 +49,37 @@ div {
 
 p {
   font-family: "Open Sans", "Trebuchet MS", sans-serif;
+}
+
+/* checkpoint */
+
+span.poison-type {
+  background-color: slateblue;
+}
+
+span.grass-type {
+  background-color: green;
+}
+
+span.fire-type {
+  background-color: red;
+}
+
+span.water-type {
+  background-color: dodgerblue;
+}
+
+span {
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+}
+
+/* checkpoint */
+
+p {
+  background-color: oldlace;
+  padding: 24px;
+  margin: 24px 0;
+  border: 1px solid darkkhaki;
 }
