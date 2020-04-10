@@ -39,7 +39,7 @@ img {
 
 /* checkpoint */
 
-div {
+div.central-block {
   width: 100%;
   max-width: 900px;
   margin: auto;
@@ -90,4 +90,24 @@ p {
 p:hover {
   background-color: lemonchiffon;
   transform: scale(1.05);
+}
+
+/* checkpoint */
+
+div.pokemon {
+  transition: background-color 0.2s;
+  margin: 0 -24px;
+  padding: 24px;
+}
+
+div.pokemon:hover {
+  background-color: gold;
+}
+
+img {
+  transition: transform 0.5s, filter 0.5s;
+}
+img:hover {
+  transform: rotate(360deg);
+  filter: invert();
 }
