@@ -13,7 +13,7 @@ h3 {
 
 /* checkpoint */
 body {
-  background-color: lavender;
+  background-color: ghostwhite;
 }
 
 p {
@@ -33,4 +33,17 @@ span {
 
 img {
   max-height: 200px;
+}
+
+/* checkpoint */
+
+div {
+  width: 900px;
+  margin: auto;
+  background-color: lavender;
+  padding: 24px;
+}
+
+p {
+  font-family: "Open Sans", "Trebuchet MS", sans-serif;
 }
